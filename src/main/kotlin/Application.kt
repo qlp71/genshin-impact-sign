@@ -28,9 +28,9 @@ val httpClient = OkHttpClient.Builder()
     .build()
 
 fun main() {
-    //签到时间
     val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
     var now = LocalDateTime.now()
+    //每天签到的时间
     var signDateTime = now.withHour(4)
         .withMinute(0)
         .withSecond(0)
