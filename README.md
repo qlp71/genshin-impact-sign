@@ -10,7 +10,7 @@
 
 复制该网页返回的cookie
 
-![image-20201214082418075](docs\cookie.png)
+![image-20201214082418075](\docs\cookie.png)
 
 把cookie粘贴到src/main/resources/cookies.txt文件下, 如果有多个账号需要签到, 每个cookie占一行即可
 
